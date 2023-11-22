@@ -1,0 +1,36 @@
+.main {
+  width: 90%;
+  /* border: solid red 1px; */
+  height: 14rem;
+  margin-top: 20rem;
+  margin-left: 5rem;
+}
+.clock {
+  border: solid black 1px;
+  width: 90%;
+  height: 10rem;
+  box-shadow: black 0 5px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.dots {
+  font-size: 20px;
+}
+.hours {
+  border: solid red 1px;
+  width: 25%;
+  box-shadow: 0 5px 5px 0;
+  font-size: 5rem;
+}
+.minutes {
+  border: solid red 1px;
+  width: 25%;
+  font-size: 5rem;
+}
+.seconds {
+  border: solid red 1px;
+  width: 25%;
+  font-size: 5rem;
+}
