@@ -7,7 +7,7 @@ function display() {
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
 }
-setInterval(display, 1000);
+setInterval(display, 100);
 
 function visibleDots() {
   const dd = new Date();
