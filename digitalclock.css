@@ -1,3 +1,12 @@
+.text {
+  font-size: 3rem;
+  font-weight: 800;
+  background-color: bisque;
+  width: 17rem;
+  box-shadow: 0 5px 3px 0;
+  border: solid black 5px;
+  border-style: inset;
+}
 .main {
   width: 90%;
   /* border: solid red 1px; */
@@ -20,6 +29,7 @@
 .dots {
   font-size: 7rem;
   text-align: center;
+  width: 12.5%;
 }
 .hours {
   border: solid rgb(14, 13, 13) 10px;
@@ -27,6 +37,7 @@
   width: 25%;
   font-size: 7rem;
   text-align: center;
+  font-family: "Consolas", monospace;
 }
 .minutes {
   border: solid rgb(8, 8, 8) 10px;
@@ -34,6 +45,7 @@
   font-size: 7rem;
   text-align: center;
   border-style: inset;
+  font-family: "Consolas", monospace;
 }
 .seconds {
   border: solid rgb(8, 8, 8) 10px;
@@ -41,4 +53,5 @@
   font-size: 7rem;
   text-align: center;
   border-style: inset;
+  font-family: "Consolas", monospace;
 }

@@ -6,13 +6,27 @@ function display() {
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
+  // document.getElementById("dots-1").innerHTML = " ";
+  // document.getElementById("dots-2").innerHTML = " ";
 }
 setInterval(display, 1000);
 
-// function dots() {
-//   document.getElementById("dots").innerHTML = ":";
-// }
-// function dotsDiss() {
-//   document.getElementById("dots").innerHTML = " ";
-// }
-// setInterval(dotsDiss, 2000);
+// setInterval(() => {
+//   document.getElementById("dots-1").innerHTML = ":";
+// }, 100);
+// setInterval(() => {
+//   document.getElementById("dots-2").innerHTML = ":";
+// }, 100);
+
+function visibleDots() {
+  const dd = new Date();
+  var sec = dd.getSeconds();
+  if (sec % 2 === 0) {
+    document.getElementById("dots-1").innerHTML = ":";
+    document.getElementById("dots-2").innerHTML = ":";
+  } else {
+    document.getElementById("dots-1").innerHTML = " ";
+    document.getElementById("dots-2").innerHTML = " ";
+  }
+}
+setInterval(visibleDots, 100);
