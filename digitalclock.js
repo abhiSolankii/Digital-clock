@@ -8,3 +8,11 @@ function display() {
   document.getElementById("seconds").innerHTML = seconds;
 }
 setInterval(display, 1000);
+
+// function dots() {
+//   document.getElementById("dots").innerHTML = ":";
+// }
+// function dotsDiss() {
+//   document.getElementById("dots").innerHTML = " ";
+// }
+// setInterval(dotsDiss, 2000);

@@ -6,7 +6,8 @@
   margin-left: 5rem;
 }
 .clock {
-  border: solid black 1px;
+  border: solid black 20px;
+  border-style: ridge;
   width: 90%;
   height: 10rem;
   box-shadow: black 0 5px 10px 0;
@@ -14,23 +15,30 @@
   justify-content: space-between;
   margin-left: 5rem;
   margin-top: 2rem;
+  background-color: bisque;
 }
 .dots {
-  font-size: 20px;
+  font-size: 7rem;
+  text-align: center;
 }
 .hours {
-  border: solid red 1px;
+  border: solid rgb(14, 13, 13) 10px;
+  border-style: inset;
   width: 25%;
-  box-shadow: 0 5px 5px 0;
-  font-size: 5rem;
+  font-size: 7rem;
+  text-align: center;
 }
 .minutes {
-  border: solid red 1px;
+  border: solid rgb(8, 8, 8) 10px;
   width: 25%;
-  font-size: 5rem;
+  font-size: 7rem;
+  text-align: center;
+  border-style: inset;
 }
 .seconds {
-  border: solid red 1px;
+  border: solid rgb(8, 8, 8) 10px;
   width: 25%;
-  font-size: 5rem;
+  font-size: 7rem;
+  text-align: center;
+  border-style: inset;
 }
